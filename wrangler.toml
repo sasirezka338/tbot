@@ -1,0 +1,17 @@
+name = "tg-github-actions-bot"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+
+[env.production]
+# KV binding
+kv_namespaces = [
+  { binding = "TOKENS_KV", id = "your-kv-id" }
+]
+
+[vars]
+TELEGRAM_TOKEN = "5391613004:AAEnMcQSprr_kly0_wlNvKKBvlCN6sPyGu4"
+GITHUB_TOKEN = "" # optional
+REPO_OWNER = "org_or_user"
+REPO_NAME = "repo_name"
+WORKFLOW_ID = "ci.yml"
+ALLOWED_USERS = "765585102"
