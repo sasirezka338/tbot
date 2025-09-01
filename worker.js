@@ -6,7 +6,7 @@
 //             REPO_OWNER, REPO_NAME, WORKFLOW_ID, ALLOWED_USERS
 
 const TELEGRAM_TOKEN = TELEGRAM_TOKEN; // provided by Wrangler environment
-const BOT_SECRET_RAW = BOT_SECRET;     // base64 or raw, provided by Wrangler secrets
+const BOT_SECRET_RAW = "QV3eVZkUvIpBiO9GeLqfhFmBw5mciHAxqh3is5G7CDs=";     // base64 or raw, provided by Wrangler secrets
 const GITHUB_TOKEN_GLOBAL = GITHUB_TOKEN || null;
 const OWNER = REPO_OWNER;
 const REPO = REPO_NAME;
