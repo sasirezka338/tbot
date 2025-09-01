@@ -10,7 +10,7 @@ kv_namespaces = [
 
 [vars]
 TELEGRAM_TOKEN = "5391613004:AAEnMcQSprr_kly0_wlNvKKBvlCN6sPyGu4"
-GITHUB_TOKEN = "" # optional
+GITHUB_TOKEN = "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" # optional
 REPO_OWNER = "org_or_user"
 REPO_NAME = "repo_name"
 WORKFLOW_ID = "ci.yml"
