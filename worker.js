@@ -8,9 +8,9 @@
 const TELEGRAM_TOKEN = TELEGRAM_TOKEN; // provided by Wrangler environment
 const BOT_SECRET_RAW = "QV3eVZkUvIpBiO9GeLqfhFmBw5mciHAxqh3is5G7CDs=";     // base64 or raw, provided by Wrangler secrets
 const GITHUB_TOKEN_GLOBAL = "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" || null;
-const OWNER = sasirezka338;
-const REPO = tbot;
-const WORKFLOW = WORKFLOW_ID;
+const OWNER = "sasirezka338";
+const REPO = "tbot";
+const WORKFLOW = "ci.yml";
 const ALLOWED_USERS = (ALLOWED_USERS || "").split(",").map(s => s.trim()).filter(Boolean).map(Number);
 const GITHUB_API = "https://api.github.com";
 
