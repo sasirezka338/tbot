@@ -4,14 +4,3 @@ compatibility_date = "2025-09-01"
 
 [env.production]
 # KV binding
-kv_namespaces = [
-  { binding = "TOKENS_KV", id = "67590972ec004dacbf44f32fed0dd2d7" }
-]
-
-[vars]
-TELEGRAM_TOKEN = "5391613004:AAEnMcQSprr_kly0_wlNvKKBvlCN6sPyGu4"
-GITHUB_TOKEN = "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" # optional
-REPO_OWNER = "sasirezka338"
-REPO_NAME = "tbot"
-WORKFLOW_ID = "ci.yml"
-ALLOWED_USERS = "765585102"
