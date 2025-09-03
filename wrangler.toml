@@ -1,4 +1,4 @@
-name = "tg-github-actions-bot"
+name = "tbot"
 main = "worker.js"
 compatibility_date = "2025-09-01"
 
