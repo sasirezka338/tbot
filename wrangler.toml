@@ -5,7 +5,7 @@ compatibility_date = "2025-09-01"
 [env.production]
 # KV binding
 kv_namespaces = [
-  { binding = "TOKENS_KV", id = "5b1da3afd5d96f92f3f9ec2d65421938" }
+  { binding = "TOKENS_KV", id = "67590972ec004dacbf44f32fed0dd2d7" }
 ]
 
 [vars]
